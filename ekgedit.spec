@@ -7,6 +7,7 @@ Release:	1
 License:	GPL v2
 Group:		Applications/Communications
 Source0:	http://otak.k-k.pl/%{name}/%{name}-sources/%{name}-%{version}.tar.gz
+# Source0-md5:	3e58f3520584ac1a6184fb96ccfc6933
 URL:		http://otak.k-k.pl/ekgedit/
 Requires:	ekg
 Requires:	otak
