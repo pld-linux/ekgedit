@@ -1,15 +1,15 @@
 Summary:	Program to edit ekg user list
-Summary(pl):	Program do edycji list znajmoych z ekg
+Summary(pl):	Program do edycji list znajomych z ekg
 Name:		ekgedit
 Version:	0.0.1
 Vendor:		Grzegorz Moskal <g.moskal@opengroup.org>
 Release:	1
 License:	GPL v2
 Group:		Applications/Communications
+Source0:	http://otak.k-k.pl/%{name}/%{name}-sources/%{name}-%{version}.tar.gz
+URL:		http://otak.k-k.pl/ekgedit/
 Requires:	ekg
 Requires:	otak
-URL:		http://otak.k-k.pl/ekgedit/
-Source0:	http://otak.k-k.pl/%{name}/%{name}-sources/%{name}-%{version}.tar.gz
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 
@@ -17,7 +17,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Program to edit user list from ekg.
 
 %description -l pl
-Program do edycji listy znajmoych z ekg.
+Program do edycji listy znajomych z ekg.
 
 %prep
 %setup -q
@@ -28,7 +28,7 @@ Program do edycji listy znajmoych z ekg.
 %install
 rm -rf $RPM_BUILD_ROOT
 %{__make} install \
-	prefix=/usr \
+	prefix=%{_prefix} \
 	DESTDIR=$RPM_BUILD_ROOT \
 	DESTFIR=$RPM_BUILD_ROOT # typo
 
