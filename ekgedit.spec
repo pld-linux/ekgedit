@@ -1,13 +1,13 @@
 Summary:	Program to edit ekg user list
 Summary(pl):	Program do edycji list znajomych z ekg
 Name:		ekgedit
-Version:	0.0.1
+Version:	0.0.3
 Vendor:		Grzegorz Moskal <g.moskal@opengroup.org>
 Release:	1
 License:	GPL v2
 Group:		Applications/Communications
 Source0:	http://otak.k-k.pl/%{name}/%{name}-sources/%{name}-%{version}.tar.gz
-# Source0-md5:	3e58f3520584ac1a6184fb96ccfc6933
+# Source0-md5:	86beee54373caea6842b17f398f709b1
 URL:		http://otak.k-k.pl/ekgedit/
 Requires:	ekg
 Requires:	otak
