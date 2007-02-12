@@ -1,5 +1,5 @@
 Summary:	Program to edit ekg user list
-Summary(pl.UTF-8):   Program do edycji list znajomych z ekg
+Summary(pl.UTF-8):	Program do edycji list znajomych z ekg
 Name:		ekgedit
 Version:	0.0.3
 Release:	1
